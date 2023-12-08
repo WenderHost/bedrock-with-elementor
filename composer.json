@@ -40,7 +40,10 @@
     "roots/wordpress": "6.4.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/twentytwentyfour": "^1.0"
+    "wpackagist-theme/twentytwentyfour": "^1.0",
+    "lukasbesch/bedrock-plugin-disabler": "^1.4",
+    "wpackagist-plugin/spinupwp": "^1.5",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
