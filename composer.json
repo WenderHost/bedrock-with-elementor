@@ -33,6 +33,10 @@
       "type": "composer",
       "url": "https://packages.wenmarkdigital.com/satispress/",
       "only": ["wenmark/*"]
+    },
+    "2": {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
     }
   },
   "require": {
@@ -52,7 +56,8 @@
     "wenmark/elementor-pro": "^3.18",
     "wpackagist-plugin/elementor": "^3.18",
     "wpackagist-theme/hello-elementor": "^2.9",
-    "wenmark/gravityforms": "2.7.17.1"
+    "wenmark/gravityforms": "2.7.17.1",
+    "wpengine/advanced-custom-fields-pro": "^6.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
