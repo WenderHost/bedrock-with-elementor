@@ -23,13 +23,18 @@
     "issues": "https://github.com/roots/bedrock/issues",
     "forum": "https://discourse.roots.io/category/bedrock"
   },
-  "repositories": [
-    {
+  "repositories": {
+    "0": {
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    "1": {
+      "type": "composer",
+      "url": "https://packages.wenmarkdigital.com/satispress/",
+      "only": ["wenmark/*"]
     }
-  ],
+  },
   "require": {
     "php": ">=8.0",
     "composer/installers": "^2.2",
@@ -43,7 +48,8 @@
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "lukasbesch/bedrock-plugin-disabler": "^1.4",
     "wpackagist-plugin/spinupwp": "^1.5",
-    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25"
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25",
+    "wenmark/elementor-pro": "^3.18"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

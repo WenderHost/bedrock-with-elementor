@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48c76f0302cd0eb5d0c01687485485b3",
+    "content-hash": "a32f76ad970b91b88f097b5109358560",
     "packages": [
         {
             "name": "composer/installers",
@@ -1137,6 +1137,25 @@
                 }
             ],
             "time": "2023-11-12T22:43:29+00:00"
+        },
+        {
+            "name": "wenmark/elementor-pro",
+            "version": "3.18.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.18.1",
+                "shasum": "e9b5ea6bac1fa6ccead6afae9a189fa313a6b33f"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Elementor.com",
+                "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
+            },
+            "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
+            "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
