@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1375ab4963f621d9bba6def1ff29c60d",
+    "content-hash": "eec02d64d5fb4b621ebb43cc2e3db7ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -1175,6 +1175,25 @@
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
             "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/ithemes-security-pro",
+            "version": "8.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.2.0",
+                "shasum": "5f121ed82a36ba0bf6afde7770a95b9768d3599d"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "SolidWP",
+                "homepage": "https://solidwp.com"
+            },
+            "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
+            "homepage": "https://solidwp.com/products/security"
         },
         {
             "name": "wpackagist-plugin/elementor",
